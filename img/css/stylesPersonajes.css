@@ -1,0 +1,52 @@
+.personajeGrande>img {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 370px) {
+    .personajeGrande>img {
+        position: relative;
+        z-index: 1;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .personajeGrande>img {
+        position: relative;
+        z-index: 1;
+        height: 80vh;
+    }
+}
+
+@media (min-width: 750px) {
+    .personajeGrande>img {
+        position: relative;
+        z-index: 1;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .personajeGrande>img {
+        position: relative;
+        z-index: 1;
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1199px) {
+    .personajeGrande>img {
+        position: relative;
+        z-index: 1;
+        height: 100vh;
+    }
+}
