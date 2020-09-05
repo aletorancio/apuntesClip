@@ -2,11 +2,14 @@ header {
     height: 100vh;
 }
 
+.gokuContainer {
+    width: 100%;
+}
+
 .goku {
     position: absolute;
     z-index: 1;
     height: 130vh;
-    margin-left: 85%
 }
 
 .esfera4 {
@@ -50,7 +53,7 @@ footer {
 @media (max-width: 700px) {
     .goku {
         height: 90vh;
-        margin-left: 70%
+        /* margin-left: 70% */
     }
     .logoHeader {
         position: relative;
@@ -65,7 +68,7 @@ footer {
 @media (max-width: 370px) {
     .goku {
         height: 100vh;
-        margin-left: 70%
+        /* margin-left: 70% */
     }
     .seccion1 {
         width: 100%;
@@ -75,7 +78,7 @@ footer {
 @media (max-width: 1199px) {
     .goku {
         height: 100vh;
-        margin-left: 100%
+        /* margin-left: 100% */
     }
     .seccion1 {
         width: 100%;
