@@ -44,6 +44,8 @@
                if (intentos == 0 &&
                    numero != numero_aleatorio) {
                    perdio();
+                   let texto = document.querySelector('.perdistext');
+                   texto.innerHTML = `El numero era ${ numero_aleatorio }. Actualiza la pagina para volver a jugar.`;
                    break;
                }
                if (numero < numero_aleatorio) {
@@ -57,6 +59,5 @@
            } else {
                alert(`Escribe un numero del 1 a 7`);
            }
-
        }
    };
