@@ -58,6 +58,7 @@
                }
            } else {
                alert(`Escribe un numero del 1 a 7`);
+               break;
            }
        }
    };
