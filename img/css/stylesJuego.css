@@ -39,9 +39,16 @@ footer {
 }
 
 .perdio {
-    height: 50%;
+    height: 50vh;
 }
 
 .yamcha {
     display: none;
+}
+
+.perdistext {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
