@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+}
+
+.jumbotron {
+    height: 400px;
+}
+
+.bulma {
+    height: 40vh;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    height: 50px;
+}
+
+.win {
+    position: relative;
+    z-index: 2;
+}
+
+.apagar {
+    display: none;
+}
