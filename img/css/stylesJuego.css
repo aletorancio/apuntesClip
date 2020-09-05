@@ -16,11 +16,32 @@ footer {
     height: 50px;
 }
 
-.win {
+.mostrar {
+    height: 40vh;
     position: relative;
     z-index: 2;
 }
 
+.win {
+    display: none;
+}
+
+.menor {
+    display: none;
+}
+
+.mayor {
+    display: none;
+}
+
 .apagar {
+    display: none;
+}
+
+.perdio {
+    height: 70%;
+}
+
+.yamcha {
     display: none;
 }
