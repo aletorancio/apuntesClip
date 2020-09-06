@@ -33,9 +33,8 @@
 
    //Esta funcion une toda la logica
    jugarAhora = () => {
-       console.log(numero_aleatorio);
-
-       //Logica
+       $('.btn-primary').addClass("disabled")
+           //Logica
        for (let i = 0; i < 3; i++) {
            intentos--;
            numero = parseInt(prompt('Escribe el numero que pensaste'));
@@ -44,8 +43,6 @@
                if (intentos == 0 &&
                    numero != numero_aleatorio) {
                    perdio();
-                   let texto = document.querySelector('.perdistext');
-                   texto.innerHTML = `El numero era ${ numero_aleatorio }. Actualiza la pagina para volver a jugar.`;
                    break;
                }
                if (numero < numero_aleatorio) {
@@ -61,4 +58,9 @@
                break;
            }
        }
+
    };
+
+   reload = () => {
+       location.reload();
+   }
