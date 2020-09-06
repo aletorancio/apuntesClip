@@ -33,8 +33,9 @@
 
    //Esta funcion une toda la logica
    jugarAhora = () => {
-       $('.btn-primary').addClass("disabled")
-           //Logica
+       $('.btn-primary').addClass("disabled");
+       $('.btn-success').removeClass("disabled");
+       //Logica
        for (let i = 0; i < 3; i++) {
            intentos--;
            numero = parseInt(prompt('Escribe el numero que pensaste'));
